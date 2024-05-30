@@ -1,0 +1,15 @@
+<article class="flex">
+    <h1>Виробники</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Країна</th>
+        </tr>
+        <tr *ngFor="let sup of suppliers">
+            <td>{{sup.id_supplier}}</td>
+            <td>{{sup.name}}</td>
+            <td>{{sup.country}}</td>
+        </tr>
+    </table>
+</article>

@@ -1,0 +1,19 @@
+/* .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+table td{
+    padding: 20px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aquamarine;
+}
+
+th:nth-child(even), td:nth-child(even){
+    background-color: darkcyan;
+} */

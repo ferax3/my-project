@@ -1,0 +1,17 @@
+<article class="flex">
+    <h1>Фармацевти</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Народження</th>
+            <th>Телефон</th>
+        </tr>
+        <tr *ngFor="let ph of pharmacists">
+            <td>{{ph.id_pharmacist}}</td>
+            <td>{{ph.full_name}}</td>
+            <td>{{ph.birthday}}</td>
+            <td>{{ph.work_exp}}</td>
+        </tr>
+    </table>
+</article>

@@ -1,0 +1,17 @@
+<article class="flex">
+    <h1>Клієнти</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Народження</th>
+            <th>Телефон</th>
+        </tr>
+        <tr *ngFor="let cl of clients">
+            <td>{{cl.id_client}}</td>
+            <td>{{cl.name}}</td>
+            <td>{{cl.birthday}}</td>
+            <td>{{cl.telephone}}</td>
+        </tr>
+    </table>
+</article>
